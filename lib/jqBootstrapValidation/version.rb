@@ -1,3 +1,3 @@
 module JqBootstrapValidation
-  VERSION = "0.0.1"
+  VERSION = "1.3.6"
 end

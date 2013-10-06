@@ -7,13 +7,12 @@ Gem::Specification.new do |gem|
   gem.name          = "jqBootstrapValidation"
   gem.version       = JqBootstrapValidation::VERSION
   gem.authors       = ["matthewbyrne"]
-  gem.email         = ["matthewpbyrne@gmail.com"]
-  gem.description   = %q{TODO: Write a gem description}
-  gem.summary       = %q{TODO: Write a gem summary}
-  gem.homepage      = ""
+  gem.email         = ["gems@matthewpbyrne.com"]
+  gem.description   = "Gemified jqBootstrapValidation: http://reactiveraven.github.io/jqBootstrapValidation/"
+  gem.summary       = "Gemified jqBootstrapValidation"
+  gem.homepage      = "https://github.com/matthewpbyrne/jqBootstrapValidation"
 
-  gem.files         = `git ls-files`.split($/)
-  gem.executables   = gem.files.grep(%r{^bin/}).map{ |f| File.basename(f) }
-  gem.test_files    = gem.files.grep(%r{^(test|spec|features)/})
+  gem.files         =  Dir["{lib,vendor}/**/*"] + ["MIT-LICENSE", "README.md"]
   gem.require_paths = ["lib"]
+  gem.add_dependency "railties", "~> 3.1"
 end

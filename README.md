@@ -1,6 +1,6 @@
 # JqBootstrapValidation
 
-TODO: Write a gem description
+Makes jqBootstrapValidation, a JQuery validation plugin for bootstrap forms, available as a Ruby Gem.
 
 ## Installation
 
@@ -11,6 +11,10 @@ Add this line to your application's Gemfile:
 And then execute:
 
     $ bundle
+
+And add it to you application.js;
+
+	//= require jqBootstrapValidation
 
 Or install it yourself as:
 
